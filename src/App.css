@@ -47,13 +47,13 @@ nav{
   text-transform: uppercase;
 }
 
-.navbar-nav > li {
+/* .navbar-nav > li {
   margin-right: 50px;
-}
+} */
 
 .navbar-nav > li > a {
   color: white;
-  margin-right: 20px;
+  margin-right: 10px;
   padding-right: 5px;
 }
 
@@ -68,7 +68,7 @@ border-top: 0.1875rem solid var(--primary-lightblue)
 .navlogo { 
   width: 8%;
   height: auto;
-  margin-left: 50px;
+  margin-left: 40px;
 }
 /* HEADER  */
 .header-wraper {
@@ -138,6 +138,10 @@ video {
   letter-spacing: 15px;
 }
 
+.container {
+  font-family:'Courier New', Courier, monospace;
+  text-align: center;
+}
 
 /* .overlay {
   position: absolute;
@@ -164,7 +168,7 @@ video {
 
 /* plans */
 
-.bi {
+/* .bi {
   color:#00C9FF;
 }
 
@@ -177,16 +181,16 @@ video {
 }
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
-.flip-card {
+/* .flip-card {
   background-color: transparent;
   width: auto;
   height: auto;
   perspective: 1000px; 
   font-family:'Courier New', Courier, monospace;
   margin-bottom: 50px;
-}
+} */
 
-/* This container is needed to position the front and back side */
+/* This container is needed to position the front and back side 
 .flip-card-inner {
   position: relative;
   width: 100%;
@@ -197,32 +201,56 @@ video {
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card:hover .flip-card-inner {
+/* .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
-}
+} */
 
 /* Position the front and back side */
-.flip-card-front, .flip-card-back {
+/* .flip-card-front, .flip-card-back {
   position: absolute;
   width: 100%;
   height: 100%;
   -webkit-backface-visibility: hidden; /* Safari */
-  backface-visibility: hidden;
-}
+  /* backface-visibility: hidden;
+} */ 
 
 /* Style the front side (fallback if image is missing) */
-.flip-card-front {
+/* .flip-card-front {
   background-color:  rgb(23, 47, 67);;
   color: white;
   height: auto;
   padding:50px 0px;
   font-family:'Courier New', Courier, monospace;;
-}
+} */
 
 /* Style the back side */
-.flip-card-back {
+/* .flip-card-back {
   background-color: white;
   color: black;
   transform: rotateY(180deg);
   padding:50px 0px;
+} */ 
+
+@media (max-width: 1000px) {
+  button.navbar-toggler {
+      position: absolute !important;
+      right: 10px !important;
+      top: 10px !important;
+      margin-bottom: 13px !important;
+  }
+}
+@media (max-width: 1000px) {
+  .main-info p{
+    word-wrap:normal !important;
+      right: 10px !important;
+      top: 10px !important;
+      margin-top: 5vw !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  .navlogo{
+      min-width: 20% !important;
+      height: auto !important;
+  }
 }
