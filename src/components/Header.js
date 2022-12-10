@@ -9,7 +9,7 @@ const Header = () => {
         <div className='overlay'></div>
         <div className='main-info'>
             <img className='logo' src={logo}/>
-            <p>Listen to your favorite songs everywhere you go</p>
+            <p>isten to your favorite songs everywhere you go</p>
             <a href='/' className='btn-ma-offer'> pick my songs</a>
         </div>
    </div>
