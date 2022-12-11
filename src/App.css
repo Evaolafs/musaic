@@ -51,24 +51,29 @@ nav{
   margin-right: 50px;
 } */
 
-.navbar-nav > li > a {
+.navbar-nav > li > span {
   color: white;
   margin-right: 10px;
   padding-right: 5px;
+  text-decoration: none !important;
 }
 
-.navbar-nav > li > a.active, .navbar-nav > li> a:focus{
+.navbar-nav > li > span.active, .navbar-nav > li> span:focus{
 border-top: 0.1875rem solid var(--primary-lightblue)
 }
 
-.navbar-nav > li >  a:hover {
-  border-top: 0.1875rem solid var(--primary-lightblue)
+.navbar-nav > li >  span:hover {
+  border-top: 0.1875rem solid var(--primary-lightblue);
+  text-decoration: none;
 }
 
 .navlogo { 
   width: 8%;
   height: auto;
   margin-left: 40px;
+}
+.nav-link {
+  text-decoration: none;
 }
 /* HEADER  */
 .header-wraper {
