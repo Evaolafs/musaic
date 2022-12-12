@@ -148,93 +148,30 @@ video {
   text-align: center;
 }
 
-/* .overlay {
-  position: absolute;
-  width: 55%;
-  height: 25%;
-  top: 0;
-  margin-top:250px;
-  margin-left: 23%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-family:'Courier New', Courier, monospace;;
- background-color: rgb(0, 0, 0, 0.5);
-} */
-/* .main-info h1 {
-  font-weight: 200px;
-  font-size: 100px;
-  text-transform: uppercase;
+/**************** HELP ****************/
+
+.need-help {
+  font-family:'Courier New', Courier, monospace;
   color: rgb(23, 47, 67);
-  margin-bottom: -10px;
-  margin-top:50px;
-} */
-
-/* plans */
-
-/* .bi {
-  color:#00C9FF;
+  margin-top: 50px;
+  margin-left: 50px;
 }
 
-.price {
-  color:white;
-  font-size: 150px;
-  font-weight: 800;
-  padding-top:-80% !important;
+.send-question {
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(23, 47, 67);
+    margin-left: 50px;
+}
+
+.email {
   font-family:'Courier New', Courier, monospace;
+    color: rgb(23, 47, 67);
 }
 
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
-/* .flip-card {
-  background-color: transparent;
-  width: auto;
-  height: auto;
-  perspective: 1000px; 
+.question-box {
   font-family:'Courier New', Courier, monospace;
-  margin-bottom: 50px;
-} */
-
-/* This container is needed to position the front and back side 
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
+  color: rgb(23, 47, 67);
 }
-
-/* Do an horizontal flip when you move the mouse over the flip box container */
-/* .flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-} */
-
-/* Position the front and back side */
-/* .flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden; /* Safari */
-  /* backface-visibility: hidden;
-} */ 
-
-/* Style the front side (fallback if image is missing) */
-/* .flip-card-front {
-  background-color:  rgb(23, 47, 67);;
-  color: white;
-  height: auto;
-  padding:50px 0px;
-  font-family:'Courier New', Courier, monospace;;
-} */
-
-/* Style the back side */
-/* .flip-card-back {
-  background-color: white;
-  color: black;
-  transform: rotateY(180deg);
-  padding:50px 0px;
-} */ 
 
 @media (max-width: 1000px) {
   button.navbar-toggler {
@@ -259,3 +196,4 @@ video {
       height: auto !important;
   }
 }
+

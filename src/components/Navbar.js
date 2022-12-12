@@ -16,7 +16,7 @@ const Navbar = () => {
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav ms-auto">
         <li className="nav-item">
-         <span className="nav-link text-nowrap"> <Link to='plan' style={{ textDecoration: 'none', color: 'white' }}>Pick songsg </Link></span>
+         <span className="nav-link text-nowrap"> <Link to='' style={{ textDecoration: 'none', color: 'white' }}>Pick songsg </Link></span>
           </li>
           <li className="nav-item active">
             <span className="nav-link"> <Link to='plan' style={{ textDecoration: 'none', color: 'white' }}>plans </Link></span>
