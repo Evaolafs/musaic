@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap'
-import { BrowserRouter as Router, Routes, Route}
+import { HashRouter as Router, Routes, Route}
     from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -22,7 +22,7 @@ function App() {
         <Route path='/help' element={<Help/>} />
     </Routes>
     <Footer/>
-    </Router>
+  </Router>
   );
 }
 
