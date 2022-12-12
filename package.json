@@ -1,7 +1,7 @@
 {
   "name": "my-song",
   "version": "0.1.0",
-  "homepage": "https://evaolafs.github.io/musaic",
+  "homepage": "https://evaolafs.github.io/musaic/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
